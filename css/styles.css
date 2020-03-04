@@ -1,0 +1,471 @@
+
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: 'Rubik', sans-serif;
+}
+
+h2 {
+    color: white;
+}
+
+header h2 {
+    color: white;
+    font-size: 19px;
+}
+
+
+
+.jumbotron {
+    margin: 0;
+    padding: 10px;
+    background-color: #1C4A3A;
+    color: white;
+}
+
+.row-content {
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+}
+
+.navbar {
+    background-color: #015045;
+}
+
+.tab-content {
+    border: 1px solid #ddd;
+    border-top: none;
+    padding: 10px;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.carousel-inner{
+     height: 600px;
+ }
+ 
+
+
+
+
+
+
+
+/*Product page*/
+
+
+ #product {
+  padding: 80px 0;
+}
+
+#product .sneakers {
+  max-width: 500px;
+  margin: 0 auto;
+/*   text-align: center; */
+}
+
+#product .product-title {
+
+}
+
+#product .product-price {
+/*   text-align: center; */
+  margin: 0 auto;
+  color: #303030;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+#product .available-colors .color {
+  border-radius: 50%;
+  margin-top: 10px;
+  max-width: 70px;
+  margin-right: 20px;
+  
+}
+
+#product .dropdown {
+  margin-top: 30px;
+}
+
+#product .size {
+  margin-right: -155px;
+}
+
+
+
+#product .btn.btn-primary {
+  margin-top: 10px;
+}
+
+/* 
+@media (max-width: 991px) {
+  #product .sneakers {
+    max-width: 400px;
+  }
+}
+ */
+
+@media screen and (max-width:575px) {
+  .mobile-menu input~nav>ul>li>a {
+    font-size: 18px;
+  }
+}
+
+.dropdown-item {
+  background-color: #fff;
+}
+
+.dropdown-menu.show {
+  background-color: #fff;
+  padding: 0;
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+  background-color: #f8f8f8;
+  color: #212529;
+}
+
+.dropdown-item:focus,
+.dropdown-item:hover {
+  color: #fff;
+  background-color: #000;
+}
+
+
+
+
+
+
+
+
+
+/*Footer*/
+
+.footer {
+  background: #015045;
+  color: white;
+}
+.footer .links ul {
+  list-style-type: none;
+}
+.footer .links li a {
+  color: white;
+  transition: color 0.2s;
+}
+.footer .links li a:hover {
+  text-decoration: none;
+  color: #4180CB;
+}
+.footer .about-company i {
+  font-size: 25px;
+}
+.footer .about-company a {
+  color: white;
+  transition: color 0.2s;
+}
+.footer .about-company a:hover {
+  color: #4180CB;
+}
+.footer .location i {
+  font-size: 18px;
+}
+.footer .copyright p {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+
+
+
+/*star rating*/
+
+.checked {
+  color: orange;
+}
+
+
+
+.parallax { 
+  background-image: url("http://s1.picswalls.com/wallpapers/2015/09/20/2015-wallpaper_111525594_269.jpg"); 
+  min-height: 500px;  
+  background-attachment: fixed; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+
+
+.container2 {
+  background-color: #f2f2f2;
+  padding: 5px 20px 15px 20px;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+}
+
+input[type=text] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.icon-container {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 24px;
+}
+
+.btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  width: 100%;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.btn:hover {
+  background-color: #45a049;
+}
+
+a {
+  color: #2196F3;
+}
+
+hr {
+  border: 1px solid lightgrey;
+}
+
+span.price {
+  float: right;
+  color: grey;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (also change the direction - make the "cart" column go on top) */
+@media (max-width: 800px) {
+  .row {
+    flex-direction: column-reverse;
+  }
+  .col-25 {
+    margin-bottom: 20px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Style the tab */
+.tab1 {
+  float: left;
+  border: 1px solid #ccc;
+  background-color:#015045;
+  width: 30%;
+  height: 800px;
+}
+
+/* Style the buttons inside the tab */
+.tab1 button {
+  display: block;
+  background-color: inherit;
+  color: black;
+  padding: 22px 16px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab1 button:hover {
+  background-color:  white;
+}
+
+/* Create an active/current "tab button" class */
+.tab1 button.active {
+  background-color:  #be3400;
+}
+
+/* Style the tab content */
+.tabcontent {
+  float: left;
+  padding: 0px 12px;
+  border: 1px solid #ccc;
+  width: 70%;
+  border-left: none;
+  height: 800px;
+ 
+
+
+
+
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  margin: 0 -16px;
+}
+
+
+
+
+.container2 {
+  
+  padding: 5px 20px 15px 20px;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+}
+
+input[type=text] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.icon-container {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 24px;
+}
+
+.btn {
+  background-color: #015045;
+  color: white;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  width: 100%;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.btn:hover {
+  background-color: #015045;
+}
+
+a {
+  color: #2196F3;
+}
+
+hr {
+  border: 1px solid lightgrey;
+}
+
+span.price {
+  float: right;
+  color: grey;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.chat-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 1;
+}
+
+.form-container textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+  resize: none;
+  min-height: 100px;
+}
